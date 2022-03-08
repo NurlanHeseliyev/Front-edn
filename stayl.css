@@ -53,3 +53,30 @@ main hr{
     margin: 1rem 0rem;
 }
 
+.section{
+    background-image: url(../Front-edn/img/408671041_89_0_1190_692_1920x0_80_0_0_ce8c5930a3fed331f1de900aab55e1de.jpg);
+    height: 100vh;
+    background-position: right;
+    background-size: contain;
+}
+.section h1{
+    color: beige;
+    padding: 1rem 0rem;
+}
+.section h3{
+    color: beige;
+    padding: 1rem 0rem;
+}
+.sectiontxt{
+    width: 50%;
+    padding: 8rem 1rem 0rem 6rem;
+    text-align: center;
+    margin: 0rem 0rem 0rem 20rem;
+}
+.section button{
+padding: 10px 1rem;
+margin-left: 27rem;
+background-color: black;
+color: beige;
+
+}
