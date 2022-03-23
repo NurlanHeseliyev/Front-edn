@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+width: 70%;
+margin: auto;
+}
+
+.parent{
+display: flex;
+}
+
+header  ul li{
+display: inline;
+margin: 0px 12px;
+list-style-type: none; 
+ 
+}
+header .TopNavbar .parent .left ul li{
+    color: white;
+}
+
+header .TopNavbar .right ul li{
+font-size: 15px;
+}
+
+header .TopNavbar{
+background-color: blue;
+color: wheat;
+padding: 1rem 0rem ;
+}
+
+header .TopNavbar .left{
+width: 30%;
+}
+
+header .TopNavbar .right{
+width: 70%;
+}
+header .TopNavbar .right ul{
+    float: right;
+}
+header .BottonNavbar .left img{
+margin: 1.6rem 0rem;
+}
+
+header .BottonNavbar {
+
+}
+
+header .BottonNavbar .right ul {
+margin: 3rem 0rem;
+float: right;
+}
+header .BottonNavbar .left{
+    width: 30%;
+}
+header .BottonNavbar .right{
+width: 70%;
+}
+header .BottonNavbar .right ul .home{
+    color: #569FFD;
+}
+
+main .doctors .container .logo{
+    text-align: center;
+}
+main .doctors .container .logo img{
+    padding: 10px 0px;
+}
+main .doctors .container .logo p{
+    padding: 10px 0px;
+}
+main .doctors .container .parent .box {
+margin: 0rem 1rem;
+}
+
+main .doctors .container .parent .box img{
+width: 100%;
+}
+
+main .doctors .container .parent .box p{
+    color: #7f7f7f;
+    text-align: center;
+}
+main .doctors .container .parent .box h3{
+   
+    text-align: center;
+}
+
+main .doctors .container .parent .box ul li{
+display: inline;
+margin: 0px 6px;
+list-style-type: none; 
+border: 3px solid #569FFD;
+border-radius: 50% ;
+text-decoration: none;
+color: #569FFD ;
+width: 33px;
+height: 33px;
+}
+
+main .doctors .container .parent .box ul{
+text-align: center;
+}
