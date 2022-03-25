@@ -1,0 +1,24 @@
+header .container .row{
+    display: block;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+header .container .row h3{
+    color: #2EBBFC;
+    padding: 10px 0px;
+}
+
+header .container .row h1{
+    padding: 10px 0px;
+}
+main .container .row .col4 ul{
+    
+    list-style-type: none; 
+    position: absolute;
+    /*display: flex;*/
+    justify-content: space-evenly;
+    width: 16%;
+    margin: -5.5rem 0rem;
+    font-size: 20px;
+}
