@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bigBox{
+            width: 80%;
+            height: 400PX;
+            background-color: brown;
+            position: relative;
+        }
+        .mediumBox{
+            width: 60%;
+            height: 250px;
+            background-color: blue;
+            position: absolute;  
+            right: 0;    
+            bottom: 0;
+            left: 0;
+    top: 0;
+    margin: auto; 
+
+        }
+        .smalBox{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            position: absolute;  
+            right: 0;    
+            bottom: 0;
+            left: 0;
+    top: 0;
+    margin: auto; 
+        }
+        .bigelement{
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            right: 10px;
+            bottom: 15px;
+            background-color: red;
+        }
+        body{
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bigBox">
+        <div class="mediumBox">
+            <div class="smalBox"></div>
+
+            <div class="bigelement"></div>
+        </div>
+    </div>
+</body>
+</html>
+
