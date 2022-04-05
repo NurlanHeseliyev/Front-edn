@@ -54,7 +54,7 @@ main hr{
 }
 
 .section{
-    background-image: url(../Front-edn/img/408671041_89_0_1190_692_1920x0_80_0_0_ce8c5930a3fed331f1de900aab55e1de.jpg);
+    background-image: url(../img/408671041_89_0_1190_692_1920x0_80_0_0_ce8c5930a3fed331f1de900aab55e1de.jpg);
     height: 100vh;
     background-position: top;
     background-size: cover ;
@@ -80,7 +80,6 @@ padding: 10px 1rem;
 margin-left: 27rem;
 background-color: black;
 color: beige;
-
 }
 .teks{
     height: 100px;
