@@ -57,6 +57,8 @@ body{
     position: absolute;
     top: 31%;
     left: 27%;
+    bottom: 0;
+    right: 0;
     text-align: center;
 
 }
@@ -82,4 +84,22 @@ color: #DDDDD1;
 .text a:last-child{
     background-color: white;
     color: #61B15A ;
+}
+
+.col-box{
+    width: 59%;
+    display: flex;
+    background-color: white;
+}
+.col-box img{
+    margin: 0rem 1rem;
+}
+.text-box{
+    line-height: 2rem;
+}
+.text-box h1 {
+    color: #61B15A
+}
+.text-box p{
+    color: #61B15A
 }
