@@ -1,0 +1,53 @@
+body{
+background-color: #222831;
+}
+
+.tekst{   
+    text-align: center;
+}
+
+.tekst h1{
+  color: white;  
+  padding-top: 2rem;
+}
+.tekst .line{
+    background-color: #E3207B;
+    color: #E3207B;
+    height: 2px;
+    width: 70px;
+    margin: auto;
+    margin-top: 1rem;
+}
+.tekst p{
+display: inline-block;
+width: 72%;
+margin-top: 2rem;
+font-size: 2rem,;
+}
+.row .col-md-3{
+    position: relative;
+}
+
+.row .col-md-3 img{
+    width: 100%
+}
+.row .col-md-3 .Day{
+    /*background-color: #E3207B;*/
+    font-size: 1.5rem;
+
+}
+.row .col-md-3 span{
+    color: white;
+   /* background-color: black ;*/
+    font-size: 1rem;
+    display: block;
+    padding: 0.5rem 0.5rem;
+    
+}
+.row .col-md-3 .info{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}

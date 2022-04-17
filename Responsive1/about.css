@@ -1,0 +1,61 @@
+section{
+    background-image: url(../img/xhero_bg_1.jpg.pagespeed.ic.-F3Jp1DTqm.webp);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+}
+
+.container .row .col-3 h1{ 
+    color: white;
+    display: inline-flex;
+}
+.container .row .col-3 span{
+    color: #e3207b;
+    font-size: 3rem;
+    display: inline-flex;
+}
+.container .col-7 .nav-right ul{
+    display: inline-flex;
+    color: #9B99A1;
+    padding-top: 3rem ;
+}
+.container .col-7 .nav-right .home{
+    color: #FFFFF0;
+}
+.container .col-7 .nav-right li{
+     padding: 0rem 1rem;
+     list-style-type: none;
+}
+.container .col-md-12{
+width: 41%;
+position: absolute;
+top: 35%;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+text-align: center;
+
+}
+.container .col-md-12 h1{
+    font-size: 3.5rem;
+    color: white;
+
+}
+.container .col-md-12 button{
+    background-color: #E3207B;
+    height: 3.5rem;
+    border-radius: 7px;
+    margin-top: 0.5rem;
+    padding: 1.3rem 1.3rem;
+}
+
+@media screen and (max-width: 600px){
+     section .col-md-12{
+        height: 50vh
+    }
+   
+
+}
