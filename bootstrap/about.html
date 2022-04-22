@@ -10,72 +10,132 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-    <style>
-        .container {
-            width: 80%;
-        }
-
-        .images img {
-            width: 100%;
-            border-radius: 0px 40px 0px 39px
-        }
-
-        .container .row .comment {
-            padding: 0px 0px 0px 10px;
-        }
-
-        .container .row .comment span {
-            color: #CDCDCD;
-            font-size: 10px;
-        }
-
-        .container .row .comment .rating i {
-            color: #7DB3F6;
-        }
-
-        .container .row .about .gr {
-            background-color: #F3F3F3;
-            border-radius: 10px;
-            font-size: 10px;
-            padding: 1px 13px;
-            width: 17%;
-        }
-
-        .container .row .about span {
-            display: grid;
-        }
-    </style>
 </head>
+<style>
+    .container {
+        width: 80%;
+    }
+
+    .container .row .col-md-3 img {
+        width: 100%;
+        border-radius: 0px 40px 0px 40px;
+    }
+
+    .container .row .col-md-3 .img_about {
+        padding: 0px 0px 0px 10px;
+
+    }
+
+    .container .row .col-md-3 .img_about .pice {
+        width: 17%;
+        background-color: #F3F3F3;
+        border-radius: 34%;
+        padding: 1px 13px;
+        font-size: 10px;
+    }
+
+    .container .row .col-md-3 .img_about span {
+        color: #CDCDCD;
+        font-size: 10px;
+    }
+
+    .container .row .col-md-3 .img_about i {
+        color: #7CB3FC;
+    }
+
+    .container .row .col-md-3 .basket {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container .row .col-md-3 .basket i {
+        text-align: center;
+        width: 15%;
+        height: 2.5rem;
+        background-color: #FCC53E;
+        padding: 12px 10px;
+        border-radius: 52%;
+    }
+</style>
 
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                 <div class="images">
-                    <div class="images">
-                        <img src="../img/tiramisu.jpg" alt="">
-                        <div class="comment">
-                            <span class="img-comment">127<i class="fa-solid fa-comment"></i></span>
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <div class="about">
-                                <span class="name">Tiramisu</span>
-                                <span class="gr">150gr</span>
-                                <h4>11.99AZN</h4>
-                                <a href=""><i class="fas fa-shopping-basket"></i></a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-md-3">
+                <img src="../img/tiramisu.jpg" alt="">
+
+                <div class="img_about">
+                    <span class="fa-solid fa-comment">127</span>
+                    <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <h6>Tiramisu</h6>
+                    <span class="pice">150gr</span>
+                </div>
+                <div class="basket">
+                    <h4>11.99AZN</h4>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </div>
             </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+
+            <div class="col-md-3">
+                <img src="../img/tiramisu.jpg" alt="">
+
+                <div class="img_about">
+                    <span class="fa-solid fa-comment">127</span>
+                    <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <h6>Tiramisu</h6>
+                    <span class="pice">150gr</span>
+                </div>
+                <div class="basket">
+                    <h4>11.99AZN</h4>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <img src="../img/tiramisu.jpg" alt="">
+                <div class="img_about">
+                    <span class="fa-solid fa-comment">127</span>
+                    <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <h6>Tiramisu</h6>
+                    <span class="pice">150gr</span>
+                </div>
+                <div class="basket">
+                    <h4>11.99AZN</h4>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <img src="../img/tiramisu.jpg" alt="">
+                <div class="img_about">
+                    <span class="fa-solid fa-comment">127</span>
+                    <br>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <h6>Tiramisu</h6>
+                    <span class="pice">150gr</span>
+                </div>
+                <div class="basket">
+                    <h4>11.99AZN</h4>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+
             </div>
         </div>
+    </div>
 </body>
-
 </html>
