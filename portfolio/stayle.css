@@ -1,0 +1,78 @@
+header{
+    background-image: url(../img/Screenshot_8.png);
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+   
+
+}
+.ovarlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.4);
+     z-index: -1;
+}
+header .nav-bar {
+    width: 100%;
+    padding: 40px 0px;
+    
+    display: inline-flex;
+}
+header .nav-bar .logo {
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+header .nav-bar .nav-item {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+header .nav-bar .nav-item ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+header .nav-bar .nav-item ul .nav-a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+header .nav-bar .nav-item ul .nav-li {
+    margin: 0px 10px;
+}
+header .nav-bar .nav-social {
+    font-size: 26px;
+    display: flex;
+    text-align: center;
+}
+header .nav-bar .nav-social .social-a {
+    margin: 0px 5px;
+    width: 23%;
+    border-radius: 48%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+.home .container .row .col-md-6{
+    position: absolute;
+    bottom: 35%;
+}
+.home .container .row .col-md-6 ul li .btn{
+    border: 1px solid #FF4A57;
+    padding: 13px 40px;
+    border-radius: 25px;
+    margin: 1rem 0px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    
+}

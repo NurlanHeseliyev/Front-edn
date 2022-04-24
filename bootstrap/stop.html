@@ -8,35 +8,97 @@
     <title>Document</title>
     <link rel="stylesheet" href="../bootstrap/stayle.css">
     <style>
+        img {
+            width: 100%;
+        }
 
+        .line-top-left {
+            width: 100px;
+            height: 100px;
+            border: 6px solid gray;
+            border-bottom: none;
+            border-left: none;
+            border-radius: 15px;
+            position: absolute;
+            top: 8%;
+            right: 6%;
+        }
 
-img{
-    width: 100%;
-}
+        .line-bottom-left {
+            width: 100px;
+            height: 100px;
+            border: 6px solid gray;
+            border-top: none;
+            border-left: none;
+            border-radius: 15px;
+            position: absolute;
+            right: 6%;
+            bottom: 28%;
+
+        }
+
+        .line-top-right {
+            width: 100px;
+            height: 100px;
+            border: 6px solid gray;
+            border-bottom: none;
+            border-right: none;
+            border-radius: 15px;
+            position: absolute;
+            left: 6%;
+            top: 8%;
+        }
+
+        .line-bottom-right {
+            width: 100px;
+            height: 100px;
+            border: 6px solid gray;
+            border-right: none;
+            border-radius: 15px;
+            position: absolute;
+            left: 6%;
+            border-top: none;
+            bottom: 28%;
+        }
+
+        .col-md-6 {
+            margin-top: 5rem;
+            text-align: center;
+        }
+
+        .col-md-6 .img1 {
+            border-radius: 15px 0% 0% 15px;
+        }
+
+        .col-md-6 .img2 {
+            border-radius: 0px 15px 15px 0px
+        }
     </style>
 </head>
 
 <body style="display: flex;">
-     <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="line">
-                </div>
+                <div class="line-top-left"></div>
+                <div class="line-bottom-left"></div>
                 <div class="images">
-                    <img src="../img/xhero_bg_1.jpg.pagespeed.ic.-F3Jp1DTqm.webp" alt="">
+                    <img class="img1" src="../img/xhero_bg_1.jpg.pagespeed.ic.-F3Jp1DTqm.webp" alt="">
                     <h3>enjoy the music</h3>
                 </div>
             </div>
             <div class="col-md-6">
-               <div class="imagse">
-                <img src="../img/xhero_bg_1.jpg.pagespeed.ic.-F3Jp1DTqm.webp" alt="">
-                <h3>enjoy the music</h3>
-               </div>
-               
-                
+                <div class="line-top-right"></div>
+                <div class="line-bottom-right"></div>
+                <div class="imagse">
+                    <img class="img2" src="../img/xhero_bg_1.jpg.pagespeed.ic.-F3Jp1DTqm.webp" alt="">
+                    <h3>enjoy the music</h3>
+                </div>
+
             </div>
         </div>
-    </div>         </div>
+    </div>
+    </div>
     </div>
 </body>
 
