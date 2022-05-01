@@ -1,0 +1,59 @@
+.banner {
+    background-image: url(../img/xhome-banner-bg.png.pagespeed.ic.7Z-g8--v0w.webp);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.banner .container .text {
+    height: 68vh;
+    align-items: center;
+    color: white;
+}
+.banner .container .text h1 {
+    width: 25%;
+}
+
+.banner .container .text p {
+    width: 39%;
+}
+.banner .container .row .images-box {
+    position: absolute;
+    left: 54%;
+}
+
+.container-book .row .col-md-3 {
+    padding-top: 1.5rem;
+}
+.container-book .row .col-md-3 .book-text {
+    display: flex;
+}
+.container-book .row  {
+    width: 50%;
+position: absolute;
+top: 80%;
+padding-left: 3rem;
+    
+}
+
+@media screen and (max-width: 600px){
+    .banner .banner .text{
+        height: 60vh;
+    }
+    .banner .container .text h1 {
+        width: 50%;
+    }
+     .text .images-box img{
+         width: 45%;
+     }
+     .banner .container .text p {
+        width: 69%;
+     }
+     .banner .container .row .images-box {
+        position: absolute;
+        left: 54%;
+        bottom: 70%;
+    }
+    .banner .container .row .images-box img{
+        display: none;
+    }
+    }

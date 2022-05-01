@@ -40,7 +40,7 @@ header .nav-bar .nav-item ul {
 }
 header .nav-bar .nav-item ul .nav-a {
     text-decoration: none;
-    color: white;
+    color: red;
     font-size: 25px;
 }
 header .nav-bar .nav-item ul .nav-li {
