@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap/stayle.css">
+    <style>
+        .color {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> </h1>
+    <h1 id="Textid"></h1>
+    <script>
+        // var x = 8;
+        // var y = 8;
+        // var a = 4;
+        // var b = 4;
+        // // document.getElementsByTagName("h1")[0].innerHTML = x + y;
+        // // document.getElementsByClassName("Text")[0].innerHTML = a + b + " Salam";
+        // var Textid = document.getElementById("Textid");
+        // Textid.innerHTML = x + y;
+        // Textid.classList.add("color");
+        var span = document.createElement("span");
+        span.innerHTML = '<i class="fa-solid fa-check"></i>';
+        span.style.color="green"; 
+        Textid.append(span);  
+
+
+        var aTag = document.createElement("a");
+        aTag.setAttribute("target", "blank");
+        aTag.setAttribute("href", "https://web.whatsapp.com/");
+        aTag.style.color = "red";
+        aTag.style.border = ("1px solid black");
+        aTag.style.padding = ("10px 2rem");
+        aTag.style.background = ("green");
+        aTag.innerText = "Click me";
+        aTag.style.fontSize = "2rem";
+        aTag.style.textDecoration="none";
+        document.body.appendChild(aTag);
+
+        var div=document.createElement("div");
+        div.setAttribute("class","col-md-4");
+        div.append(aTag);
+        document.body.appendChild(div);
+
+        let a=7;
+        let b=7;
+        if (a==b) {
+        document.write("beraberdir")
+        }
+        let n=15;
+        let m=15;
+        if (n>m) {
+        console.log("n-kicikdir m-den");
+        } else if (n<m){
+        console.log("m-boyukdur  n-den");
+        } else{
+            console.log("ededler bir birne beraberdir");
+        }
+        //kart hesabi ile odenis
+       let kartHesabi=60;
+
+       if (kartHesabi==50) {
+           console.log("emeliyyat ugurla sona yetdi.hesabinizdan 50AZN cixildi")
+       } else if (kartHesabi==60) {
+           console.log("emeliyyat ugurla sona yetdi.hesabinizdan 50AZN cixildi. hesab artirilsin hesab 0 enmisdir")
+       } else {
+           console.log("hesabinizdan kifayet geder vesayit yoxdu")
+       }
+         
+
+       
+        
+    </script> 
+</body>
+
+</html>
