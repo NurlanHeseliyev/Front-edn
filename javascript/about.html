@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="row">
+
+        </div> -->
+
+        <button class="btn" style="padding: 150px 150px;" onclick="Show()">Click</button>
+        <!-- <button class="btn">Click</button> -->
+        <label for="cars">Choose a car:</label>
+
+        <select name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+    </div>
+    <script>
+        var selectBox=document.getElementById("cars");
+        selectBox.addEventListener("change",function(){
+            alert(selectBox.value);
+        })
+        //  var btn=document.querySelector(".btn");
+        //  btn.addEventListener("click",function(){
+        //      btn.innerHTML="salam Dunya"
+        //  })
+        function Show(){
+           document.querySelector(".btn").innerHTML="Salam Dunya"
+        }
+
+
+        // var div = document.createElement("div");
+        // div.classList.add("col-md-4");
+        // var h1 = document.createElement("h1");
+        // h1.innerHTML = "Lorem ipsum dolor sit amet.";
+        // var img =document.createElement ("img");
+        // img.setAttribute("src", "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fru%2F%25D1%2584%25D0%25BE%25D1%2582%25D0%25BE%2F%25D0%25BE%25D0%25BC%25D0%25BB%25D0%25B5%25D1%2582-%25D1%2581-%25D0%25BF%25D0%25B0%25D1%2580%25D0%25BC%25D1%2581%25D0%25BA%25D0%25B0%25D1%258F-%25D0%25B2%25D0%25B5%25D1%2582%25D1%2587%25D0%25B8%25D0%25BD%25D0%25B0-gm152950610-15983676&psig=AOvVaw3HzLNRaYSf9JKLTg5AbcCD&ust=1652972900539000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCIiXruCq6fcCFQAAAAAdAAAAABAD")
+        // div.append (img);
+        // div.append(h1);
+        // document.querySelector(".row").appendChild(div)
+
+
+        // var a=8;
+        // if (a>=6) {
+        //     console.log("6 dan boyukdur")
+        // }else if (a<=3) {"3 den kicikdir"
+
+        // }else{
+        //     console.log("3-6 arasindadir")
+        // }
+
+        // var biz = [20,25,45,56,5,4,8,100];
+        // var siz = biz[0];
+        // for(var i=0; i<biz.length;i++){
+        //     // if (biz[i]>siz) {
+        //     //  siz=biz[i]
+                
+        //     // }
+        //     if (biz[i]%2==0) {
+        //         console.log(biz[i])
+                
+        //     }
+        // }
+        // console.log(biz)
+
+            // var ededler=[2,1,3,4,5,6,7,8,9];
+            // var sum=0;
+            // // for(var i=0;i<ededler.length;i++){
+            //     sum +=ededler[i]
+            // }
+            // sum=sum+ededler[i]
+            // console.log(sum)
+
+                //for dongusunde for in for ofun ferqi  IN elmentlerin indexlerin gosterir OF ise edelerin ozun
+            // for(x in ededler){
+            //     console.log(x)
+
+            // }
+            // for(x of ededler){
+            //     console.log(x)
+
+            // }
+
+            //parametr qebul etmeyen function
+            // function ArraySum(){
+            //     for(var i=0;i<10;  i++){
+            //         console.log(i)
+            //     }
+            // }
+            // ArraySum();
+
+
+            // function fullname (ad,soyad) {
+            //     console.log(ad +" "+soyad)
+            // }
+            // fullname("Memmed","Memmedov");
+            // fullname("Mehmmed","Memmedov");
+
+            // function ArraySum(arr){
+            //     var sum=0;
+            //     for(var x of arr){
+            //         sum+=x;
+            //     }
+            //     console.log(sum)
+            // }
+            // var x1Arr=[3,5,7]
+            // var x2Arr=[7,5,2]
+            // ArraySum(x1Arr)
+            // ArraySum(x2Arr)
+
+
+    </script>
+</body>
+
+</html>
