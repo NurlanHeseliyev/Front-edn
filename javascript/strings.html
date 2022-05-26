@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Bir Kere Yukselen Bayrak Bir Daha Enmez</h1>
+    <!-- <p id="demo"></p> -->
+    <p id="demo">Mehemmed Emin</p>
+    <button onclick="myFunction()">Clik Mee</button>
+    <script>
+        //strings demo
+        // let Text = "Mehemmed Emin Resulzade";
+        // document.getElementById("demo").innerHTML = Text;
+
+        // let Text1 = "“Ey Gənclik! Ey Türk gəncliyi!”";
+        // let Text2 = "Sənin öhdəndə böyük bir vəzifə var!"
+        // let Text3 = "Səndən əvvəlki nəsil yoxdan bir bayraq, müqəddəs bir ideal rəmzi yaratdı. Və onu min müşkülatla yüksəldərək dedi ki, bir kərə yüksələn bayraq bir daha enməz!"
+        // document.getElementById("demo").innerHTML =Text1 + "<br>" + Text2 + "<br>" +  Text3;
+
+        // let Text = "Memmed Emin Rezulzade"
+        // document.getElementById("demo").innerHTML = Text.length;
+
+
+
+
+        //STRINGS METHODS
+                //Slice methods
+        // let str = "sen, men, biz";
+        // document.getElementById("demo").innerHTML = str.slice(5, 8);
+
+        // let str1 = "sen, men, biz";
+        // document.getElementById("demo").innerHTML = str1.slice(-9, -5);
+
+        // let str2 = "sen, men, biz";
+        // document.getElementById("demo").innerHTML = str2.slice(5);
+        // let str3 = "sen, men, biz";
+        // document.getElementById("demo").innerHTML = str3.slice(-14);
+
+        //         //substring
+        //         let str4 = "sen, men, biz";
+        // document.getElementById("demo").innerHTML = str4.substring(-14);
+
+        // let str5 = "sen, men, biz";
+        // document.getElementById("demo").innerHTML = str5.substring(8,4);   
+        // let str6 = "sen, men, biz";
+        // document.getElementById("demo").innerHTML = str6.substring(5);
+        
+            //string
+
+            function myFunction(){
+         let text = document. getElementById("demo").innerHTML;
+         document.getElementById("demo").innerHTML=text.replace("Emin","Resulzade");
+            }
+    </script>
+</body>
+
+</html>
