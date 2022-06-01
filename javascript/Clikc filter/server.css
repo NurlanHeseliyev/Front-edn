@@ -1,0 +1,39 @@
+.main-content{
+    margin-top: 20%;
+  }
+  .main-content .buttonBox{
+    margin-bottom: 2rem;
+  }
+  
+  .main-content .buttonBox .btn{
+    width: 100%;
+  }
+  .main-content .imgBox img{
+    width: 100%;
+    filter: blur(10px);
+  }
+  .main-content .textBox{
+    margin-top: 2rem;
+    display: none;
+  }
+  
+  .main-content .textBox p{
+    font-size: 2rem ;
+    font-weight: bold;
+  }
+  
+  
+  
+  /* for input password */
+  .input-wrapper{
+    position: relative;
+  }
+  
+  .input-wrapper i{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    color: red;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+  }
