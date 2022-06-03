@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 1200px;
+            margin: auto;
+        }
+
+        .acordion-item {
+            border: 1px solid gray;
+
+        }
+
+        .acordion-item h1 {
+            cursor: pointer;
+            margin: auto;
+            padding: 20px;
+            background-color: grey;
+            color: white;
+        }
+
+        .acordion-item p {
+            padding: 20px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="acordion-item">
+            <h1 onclick="testFunc">Item header</h1>
+            <p class="p01">1 Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="acordion-item">
+            <h1 onclick="testFunc1">Item header</h1>
+            <p class="p02">2 Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="acordion-item">
+            <h1 onclick="testFunc2">Item header</h1>
+            <p class="p03">3 Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </div> -->
+    <div class="container">
+        <div class="acordion-item">
+            <h1 onclick="testFunc">Item header</h1>
+            <p class="dropdown active">1 Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="acordion-item">
+            <h1 onclick="testFunc">Item header</h1>
+            <p class="dropdown active">2 Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="acordion-item">
+            <h1 onclick="testFunc">Item header</h1>
+            <p class="dropdown active">3 Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+    <script>
+        // let  = document.querySelector('p')
+        // acar=true;
+        // kliklenme=0
+        // function testFunc() {
+        //    if (acar==true) {
+        //     document.querySelector(".p01"). style.display="none"
+        //     acar=false
+        //    }else{
+        //     document.querySelector(".p01"). style.display="block"
+        //     acar=true
+        //    }
+        // }
+        // console.log(acar,kliklenme)
+        // kliklenme++
+
+        // function testFunc1() {
+        //  document.querySelector(".p02"). style.display="none"
+            
+        // }function testFunc2() {
+        //  document.querySelector(".p03"). style.display="none"
+            
+        // }
+
+        var parag=document.querySelectorAll("testFunc");
+        for(let Item of parag){
+            Item.addEventListener("click",function(){
+                document.querySelector('.dropdown.active').classList.remove("active");
+                Item.nextElementSibling.classList.add("active");
+            })
+        }
+    </script>
+</body>
+
+</html>
